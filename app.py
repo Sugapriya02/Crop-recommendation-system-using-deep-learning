@@ -12,8 +12,7 @@ from tensorflow.keras.layers import Dense
 
 
 # importing model
-#model = pickle.load(open('crop_recommendation_model.pkl','rb'))
-model = keras.models.load_model(open('crop_recommendation_model.pkl','rb'))
+model = pickle.load(open('crop_recommendation_model.pkl','rb'))
 #sc = pickle.load(open('standscaler.pkl','rb'))
 #ms = pickle.load(open('minmaxscaler.pkl','rb'))
 
